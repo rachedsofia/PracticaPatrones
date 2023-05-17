@@ -14,6 +14,6 @@ public class Carne extends Adicional {
 
 	@Override
 	public double precio() {
-		return (super.obtenerPrecio() + 25.0);
+		return super.obtenerPrecio() + 20.0;
 	}
 }
